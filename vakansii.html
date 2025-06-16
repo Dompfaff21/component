@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вакансии</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="logo"><a href="../index.html"><img src="../pics/лого.png" alt="Логотип"></a></div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="tech-park.html">О технопарке</a></li>
+        <li><a href="press-center.html">Пресс-центр</a></li>
+        <li><a href="infra.html">Инфраструктура технопарка</a></li>
+        <li><a href="rez.html">Резидентам</a></li>
+        <li><a href="d-rez.html">Действующие резиденты</a></li>
+        <li><a href="contacts.html">Контакты ТП</a></li>
+        <li><a href="vakansii.html">Вакансии</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+        <div class="header">
+            <h1>Карьерные возможности</h1>
+            <p>Присоединяйтесь к нашей команде профессионалов</p>
+        </div>
+        
+        <div class="content">
+            <div class="vacancies-column">
+                <h2 class="section-title">Открытые вакансии</h2>
+                
+                <div class="vacancy-card">
+                    <div class="vacancy-img">
+                      <img src="../pics/v1.jpg" alt="Вакансия">
+                    </div>
+                    <div class="vacancy-info">
+                        <h3 class="vacancy-title">Оператор станков с чпу</h3>
+                        <p class="vacancy-desc">
+                            (токарные станки)
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="vacancy-card">
+                    <div class="vacancy-img">
+                      <img src="../pics/v2.jpg" alt="Вакансия">
+                    </div>
+                    <div class="vacancy-info">
+                        <h3 class="vacancy-title">Токарь-универсал</h3>
+                        <p class="vacancy-desc">
+                            (4-6 разряд)
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="vacancy-card">
+                    <div class="vacancy-img">
+                        <img src="../pics/v3.jpeg" alt="Вакансия">
+                    </div>
+                    <div class="vacancy-info">
+                        <h3 class="vacancy-title">Подсобный рабочий</h3>
+                        <p class="vacancy-desc">
+                            (На производство)
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="vacancy-card">
+                    <div class="vacancy-img">
+                      <img src="../pics/v4.jpg" alt="Вакансия">
+                    </div>
+                    <div class="vacancy-info">
+                        <h3 class="vacancy-title">ученик токаря</h3>
+                        <p class="vacancy-desc">
+                            (на производство)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-column">
+                <h2 class="section-title">Откликнуться на вакансию</h2>
+                
+                <form id="response-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lastname">Фамилия</label>
+                            <input type="text" id="lastname" class="form-control" placeholder="Иванов" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="firstname">Имя</label>
+                            <input type="text" id="firstname" class="form-control" placeholder="Иван" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="middlename">Отчество</label>
+                        <input type="text" id="middlename" class="form-control" placeholder="Иванович">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="+7 (999) 123-45-67" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" class="form-control" placeholder="example@mail.ru" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="vacancy">Интересующая вакансия</label>
+                        <select id="vacancy" class="form-control" required>
+                            <option value="">Выберите вакансию</option>
+                            <option value="Frontend разработчик">Оператор станков с чпу</option>
+                            <option value="Backend разработчик">Токарь-универсал</option>
+                            <option value="UX/UI дизайнер">Подсобный рабочий</option>
+                            <option value="Маркетолог">Ученик токаря</option>
+                        </select>
+                    </div>
+                    
+                    <div class="consent-group">
+                        <input type="checkbox" id="consent" required>
+                        <label for="consent">Даю согласие на обработку персональных данных в соответствии с ФЗ-152 "О персональных данных"</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  <section class="partners">
+  <h2>Партнеры</h2>
+  <div class="partner-grid">
+    <div class="partner-card"><img src="../pics/ЛОГО/1.jpg" alt="Партнер 1"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/2.png" alt="Партнер 2"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/3.png" alt="Партнер 3"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/4.png" alt="Партнер 4"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/5.png" alt="Партнер 5"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/6.png" alt="Партнер 6"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/7.png" alt="Партнер 7"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/8.png" alt="Партнер 8"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/9.png" alt="Партнер 9"></div>
+    <div class="partner-card"><img src="../pics/ЛОГО/10.png" alt="Партнер 10"></div>
+  </div>
+</section>
+</div>
+  <footer>
+    <div class="footer-column">
+      <ul>
+        <li><a href="tech-park.html">О технопарке</a></li>
+        <li><a href="press-center.html">Пресс-центр</a></li>
+        <li><a href="infra.html">Инфраструктура технопарка</a></li>
+        <li><a href="rez.html">Резидентам</a></li>
+        <li><a href="d-rez.html">Действующие резиденты</a></li>
+        <li><a href="contacts.html">Контакты ТП</a></li>
+        <li><a href="vakansii.html">Вакансии</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Технопарк "Компонент"</h3>
+    </div>
+    <div class="footer-column">
+      <p>656037, Алтайский край, г. Барнаул,</p>
+      <p>Ул. Северо-Западная , д. 2</p>
+      <p>тел. 8-929-347-7688</p>
+      <a style="color: #3366ff; text-decoration: none;" href="mailto:component.tp@yandex.ru">component.tp@yandex.ru</a>
+    </div>
+  </footer>
+<script>
+        document.getElementById('response-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                lastName: document.getElementById('lastname').value,
+                firstName: document.getElementById('firstname').value,
+                middleName: document.getElementById('middlename').value,
+                phone: document.getElementById('phone').value,
+                email: document.getElementById('email').value,
+                vacancy: document.getElementById('vacancy').value
+            };
+            
+            alert('Ваша заявка успешно отправлена!\nМы свяжемся с вами в ближайшее время.');
+            
+            this.reset();
+        });
+    </script>
+</body>
+</html>
